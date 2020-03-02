@@ -1,7 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-const title = 'React with Webpack and Babel';
-ReactDOM.render(
-  <div>{title}</div>,
-  document.getElementById('app')
-);
+import Bottom from './bottomComponent';
+import Delivery from './deliveryComponent';
+import Price from './priceComponent';
+import Shipping from './shippingComponent';
+import Stock from './stockComponent';
+
+
+class App extends React.Component {
+
+
+
+  render() {
+    return (
+      <div>
+        <Price />
+        <Shipping />
+        <Delivery />
+        <Stock /> 
+        <Bottom />
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('app'));
