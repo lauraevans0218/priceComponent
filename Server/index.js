@@ -7,7 +7,7 @@ var app = express();
 app.use( bodyParser.json() );
 
 
-app.use(express.static(__dirname + '/../react-client/dist'));
+app.use(express.static(path.join(process.cwd() + '/client/dist')));
 
 //CHANGE GET FUNCTION 
 // app.get('/api/users', function (req, res) {
