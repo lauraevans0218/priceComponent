@@ -1,12 +1,14 @@
 import React from 'react';
+import image from './Images/newPrimeLogo.png';
+import styles from './styles.module.css';
+
 
 //NEED TO ADD IMAGE 
 const divStyle = {
     color: "dimgray",
     fontFamily: "Arial",
     fontSize: 13, 
-    fontWeight: 100,
-    
+    fontWeight: 100
 };
 
 const divStyle2 = {
@@ -14,13 +16,28 @@ const divStyle2 = {
     fontFamily: "Arial",
     fontSize: 13, 
     fontWeight: 100,
+    border: "none"
+    
+};
+
+const imgStyle ={
+    height: 25, 
+    right: 10,
+    left: 10
 };
 
 const Shipping = () => (
 
     <div>
-        <h2 style={divStyle}>FREE One-Day</h2>
-        <button style={divStyle2}>FREE Returns</button>
+        <img src={image} style={imgStyle}/>
+        <span style={divStyle}>FREE One-Day &</span>
+        <div> 
+            <form>
+                <select>
+                    <option style={divStyle2} className={styles.dropdown}>FREE Returns</option>
+                </select>
+            </form>
+        </div>
     </div>
 
 );

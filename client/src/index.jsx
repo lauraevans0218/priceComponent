@@ -12,12 +12,25 @@ class App extends React.Component {
 
 
   render() {
+    const styleBody = {
+      border: 10,
+      borderColor: "gray",
+      borderWidth: "thin",
+      borderStyle: "solid",
+      padding: 14,
+      background: "white",
+      borderRadius: 3,
+      position: "absolute",
+      right: 50, 
+    };
+
     return (
-      <div>
+      <div style={styleBody} >
         <Price />
         <Shipping />
         <Delivery />
         <Stock /> 
+        <br></br>
         <Bottom />
       </div>
     )
