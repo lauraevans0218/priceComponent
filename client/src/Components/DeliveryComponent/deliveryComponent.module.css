@@ -1,0 +1,28 @@
+.textStyle {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  
+}
+
+.textStyle2 {
+  color: dimgrey;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  
+}
+
+.hyperLinkTextStyle {
+  color: #0066c0; 
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a1:hover {
+  color: hsl(27, 75%, 42%);
+  text-decoration: underline;
+}

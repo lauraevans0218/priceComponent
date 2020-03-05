@@ -1,0 +1,73 @@
+.giftTextStyle {
+    color: black;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 100px;
+}
+
+.dashButtonTextStyle {
+    color: black; 
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 100px;
+    background-color: lightgray;
+}
+
+.dashTextStyle {
+    color: blue;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 100px;
+}
+
+.iconStyle {
+    height: 17px; 
+    border-radius: 5px;
+    vertical-align: middle;
+    justify-content: left;
+    width: 25px;
+    margin-right: 90px;
+    margin-left: -50px;
+}
+
+
+.addToCartButtonStyle {
+    background: linear-gradient(to top, #ffcc66 0%, #ffffff 116%);
+    border-color: #a88734 #9c7e31 #846a29;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial;
+    width: 230px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    border-style: outset;
+}
+
+.textStyle {
+    margin-right: 0px;
+    margin-left: -40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonDivStyle {
+    line-height: 40px;
+}
+
+.buyNowButtonStyle {
+    background: linear-gradient(to top, #ed9220 49%, #ffffff 110%);
+    border-color: #ca7c1b #be751a #a56616;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial;
+    width: 230px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    border-style: outset;
+}

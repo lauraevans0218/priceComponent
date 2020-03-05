@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './client/src/index.jsx',
+    entry: './client/src/Components/IndexComponent/index.jsx', 
     module: {
       rules: [
         {
@@ -17,7 +17,12 @@ module.exports = {
         },
         {
           test: /\.css$/i,
-          use: ['style-loader', 'css-loader'],
+          use: ['style-loader',  {
+            loader: 'css-loader',
+            options: {
+             importLoaders: 1, 
+             modules: true}}]
+
         }
       ]
     },

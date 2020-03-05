@@ -24,6 +24,6 @@ app.use(express.static(path.join(process.cwd() + '/client/dist')));
 //   });
   
   //error first call backs are needed in servers and db
-  app.listen(3000, function() {
+  app.listen(3500, function() {
     console.log('listening on port 3000!');
   });

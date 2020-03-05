@@ -1,3 +1,4 @@
 node_modules
 Database/config.js
 client/dist/bundle.js
+.DS_Store

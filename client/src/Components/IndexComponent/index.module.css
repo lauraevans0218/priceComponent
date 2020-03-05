@@ -1,0 +1,11 @@
+.styleBody  {
+    border: 10px;
+    border-color: gray;
+    border-width: thin;
+    border-style: solid;
+    padding: 20px;
+    background: white;
+    border-radius: 3px;
+    position: absolute;
+    right: 50px; 
+  }
