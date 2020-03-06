@@ -8,26 +8,43 @@
 .dashButtonTextStyle {
     color: black; 
     font-family: Arial;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 100px;
-    background-color: lightgray;
+    background: linear-gradient(to bottom, #e7e9ec 0%, #d3d3d3 94%);
+    width: auto;
+    display: table-cell;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 210px;
+    text-align: center;
+    justify-content: center;
+    height: 25px;
+    border-style: outset;
+    
 }
 
 .dashTextStyle {
-    color: blue;
+    color: #0066c0;
     font-family: Arial;
     font-size: 13px;
-    font-weight: 100px;
+    font-weight: normal;
+    text-align: center;
 }
 
 .iconStyle {
-    height: 17px; 
+    height: 19px; 
     border-radius: 5px;
     vertical-align: middle;
     justify-content: left;
-    width: 25px;
+    width: 23px;
     margin-right: 90px;
     margin-left: -50px;
+    position: absolute;
+    top: 353px;
+    left: 84px;
+    text-align-last: center;
+    text-indent: 50px;
 }
 
 
@@ -38,12 +55,13 @@
     padding: 5px;
     border-radius: 5px;
     font-family: Arial;
-    width: 230px;
+    width: 210px;
     cursor: pointer;
     text-align: center;
     justify-content: center;
     height: 30px;
     border-style: outset;
+    text-indent: 50px;
 }
 
 .textStyle {
@@ -51,6 +69,8 @@
     margin-left: -40px;
     justify-content: center;
     text-align: center;
+    padding: 0px 0px;
+    
 }
 
 .buttonDivStyle {
@@ -64,10 +84,33 @@
     padding: 5px;
     border-radius: 5px;
     font-family: Arial;
-    width: 230px;
+    width: 210px;
     cursor: pointer;
     text-align: center;
     justify-content: center;
     height: 30px;
     border-style: outset;
+    text-indent: 50px;
 }
+
+.iconStyle2 { 
+    border-radius: 5px;
+    vertical-align: middle;
+    justify-content: left;
+    width: 39px;
+    margin-right: 90px;
+    margin-left: -75px;
+    height: 33px;
+    position: absolute;
+    left: 100px;
+    top: 382px;
+    bottom: 50px;
+    right: 0px;   
+    text-align-last: center;
+}
+
+#dash:hover {
+        color: hsl(27, 75%, 42%);
+        text-decoration: underline;
+}
+

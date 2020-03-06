@@ -9,6 +9,10 @@ app.use( bodyParser.json() );
 
 app.use(express.static(path.join(process.cwd() + '/client/dist')));
 
+app.route('/bundle')
+  .get((req, res) => {
+    res.sendFile(path.join(process.cwd(), '/client/dist/bundle.js'));
+  });
 //CHANGE GET FUNCTION 
 // app.get('/api/users', function (req, res) {
 //     //console.log(db.getUserName('beth'));

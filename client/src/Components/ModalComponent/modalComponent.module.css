@@ -43,7 +43,8 @@ span:hover {
   .imgStyle {
     height: 20px; 
     right: 10px;
-    left: 10px;
+    left: 0px;
+    position: relative;
   }
 
   .hyperLinkTextStyle {
