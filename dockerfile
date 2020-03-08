@@ -1,13 +1,13 @@
-FROM node:12.7.0
+FROM node:12.7.0-alpine
 
-WORKDIR ' /client/src/Components/IndexComponent/index'
+WORKDIR /usr/server
 
-COPY package.json .
+COPY package*.json ./
 
-RUN yarn
+RUN npm install 
 
 COPY . .
 
 EXPOSE 3500
 
-CMD ["node", "./Server/index.js"]
+CMD ["npm", "start"]

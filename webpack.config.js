@@ -36,5 +36,8 @@ module.exports = {
     },
     devServer: {
       contentBase: './client/dist'
-    }
+    },
+    watchOptions: {
+      poll: true
+  }
   };

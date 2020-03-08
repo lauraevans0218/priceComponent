@@ -4,8 +4,8 @@
   "description": "Add Cart functionality",
   "main": "priceComponent/Server/index.js",
   "scripts": {
+    "start": "node Server/index.js",
     "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon Server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   database : 'nozama'
 });
 
-connection.connect();
+// connection.connect();
 
 //CODE BELOW TESTS DATABASE CONNECTION AND RENDERS TO SERVER
 // const querytest = connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
