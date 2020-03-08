@@ -9,5 +9,6 @@
     position: relative;
     /* right: 50px;  */
     margin: 0 auto;
-  
+    max-height: max-content;
+    margin-bottom: 100px;
   }

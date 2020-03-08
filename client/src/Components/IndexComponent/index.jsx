@@ -7,6 +7,7 @@ import Shipping from '../ShippingComponent/shippingComponent';
 import Stock from '../StockComponent/stockComponent';
 import Modal from '../ModalComponent/modalComponent';
 import style from './index.module.css';
+import SocialMedia from '../SocialMediaComponent/socialMediaComponent';
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Stock /> 
         <br></br>
         <Bottom />
+        <SocialMedia />
       </div>
     )
   }

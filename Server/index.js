@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var db = require('../Database');
 var path = require('path');
 var app = express();
+const port = 3500;
 
 app.use( bodyParser.json() );
 
@@ -13,6 +14,7 @@ app.route('/bundle')
   .get((req, res) => {
     res.sendFile(path.join(process.cwd(), '/client/dist/bundle.js'));
   });
+  
 //CHANGE GET FUNCTION 
 // app.get('/api/users', function (req, res) {
 //     //console.log(db.getUserName('beth'));
@@ -28,6 +30,6 @@ app.route('/bundle')
 //   });
   
   //error first call backs are needed in servers and db
-  app.listen(3500, function() {
-    console.log('listening on port 3000!');
+  app.listen(port, function() {
+    console.log('listening on port 3500!');
   });

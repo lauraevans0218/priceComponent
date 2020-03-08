@@ -5,8 +5,10 @@
   "main": "priceComponent/Server/index.js",
   "scripts": {
     "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon Server/index.js"
+    "server-dev": "nodemon Server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Laura Evans",
   "license": "",
   "devDependencies": {

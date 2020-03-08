@@ -1,6 +1,7 @@
 import React from 'react'; 
 import cartIcon from '../../Images/cartIcon.jpeg';
 import buyNowIcon from '../../Images/buyNowIcon.png';
+
 import style from './bottomComponent.module.css';
 
 const Bottom = () => (
@@ -35,6 +36,8 @@ const Bottom = () => (
         <div className={style.dashTextStyle} id={style.dash}>Learn more about Dash Buttons</div>
         <br></br>
         <button className={style.dashButtonTextStyle}>Add to List</button>
+        <br></br>
+        
     </div>
 );
 
