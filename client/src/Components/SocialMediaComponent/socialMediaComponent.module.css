@@ -1,0 +1,19 @@
+.imgStyle {
+    height: 25px; 
+    right: 10px;
+    left: 0px;
+    position: relative;
+}
+
+.imgStyle2 {
+    height: 42px; 
+    right: 10px;
+    left: 0px;
+    top: -8px;
+    position: relative;
+}
+
+.socialMediaBox {
+    display: flex;
+    justify-content: space-evenly;
+}

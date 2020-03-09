@@ -33,7 +33,7 @@
 }
 
 .iconStyle {
-    height: 19px; 
+    height: 18px; 
     border-radius: 5px;
     vertical-align: middle;
     justify-content: left;
@@ -41,7 +41,7 @@
     margin-right: 90px;
     margin-left: -50px;
     position: absolute;
-    top: 353px;
+    top: 320px;
     left: 84px;
     text-align-last: center;
     text-indent: 50px;
@@ -97,13 +97,13 @@
     border-radius: 5px;
     vertical-align: middle;
     justify-content: left;
-    width: 39px;
+    width: 40px;
     margin-right: 90px;
     margin-left: -75px;
     height: 33px;
     position: absolute;
     left: 100px;
-    top: 382px;
+    top: 348px;
     bottom: 50px;
     right: 0px;   
     text-align-last: center;

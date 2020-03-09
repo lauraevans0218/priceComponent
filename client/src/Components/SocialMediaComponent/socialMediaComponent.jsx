@@ -6,11 +6,23 @@ import twitterIcon from '../../Images/twitterIcon.png';
 import pinterestIcon from '../../Images/pinterestIcon.png';
 
 const SocialMedia = () => (
+
     <div>
-        <span>
-            <image src={emailIcon} 
-            className={style.iconStyle3}>
-            </image>
+        <hr></hr>
+        <br></br>
+        <span className={style.socialMediaBox}>
+            <img src={emailIcon} 
+            className={style.imgStyle}>
+            </img>
+            <img src={fbIcon} 
+            className={style.imgStyle}>
+            </img>
+            <img src={twitterIcon} 
+            className={style.imgStyle2}>
+            </img>
+            <img src={pinterestIcon} 
+            className={style.imgStyle}>
+            </img>
         </span>
     </div>
 );
