@@ -35,16 +35,37 @@
 .iconStyle {
     height: 18px; 
     border-radius: 5px;
-    vertical-align: middle;
+    vertical-align: text-top;
     justify-content: left;
     width: 23px;
     margin-right: 90px;
     margin-left: -50px;
-    position: absolute;
-    top: 320px;
-    left: 84px;
+    position: relative;
+    /* top: 320px;
+    left: 84px; */
     text-align-last: center;
     text-indent: 50px;
+    display: relative;
+    justify-content: space-between;
+}
+
+.iconStyle2 { 
+    border-radius: 5px;
+    /* vertical-align: text-top;
+    justify-content: left; */
+    width: 35px;
+    /* margin-right: 90px;
+    margin-left: -50px; */
+    height: 35px;
+    position: relative;
+    /* left: 100px;
+    top: 348px; */
+    /* bottom: 50px;
+    right: 0px;    */
+    /* text-align-last: center;
+    text-indent: 50px; */
+    display: relative;
+    justify-content: space-between;
 }
 
 
@@ -57,11 +78,11 @@
     font-family: Arial;
     width: 210px;
     cursor: pointer;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    /* justify-content: center; */
     height: 30px;
     border-style: outset;
-    text-indent: 50px;
+    /* text-indent: 50px; */
 }
 
 .textStyle {
@@ -93,24 +114,16 @@
     text-indent: 50px;
 }
 
-.iconStyle2 { 
-    border-radius: 5px;
-    vertical-align: middle;
-    justify-content: left;
-    width: 40px;
-    margin-right: 90px;
-    margin-left: -75px;
-    height: 33px;
-    position: absolute;
-    left: 100px;
-    top: 348px;
-    bottom: 50px;
-    right: 0px;   
-    text-align-last: center;
-}
-
 #dash:hover {
         color: hsl(27, 75%, 42%);
         text-decoration: underline;
 }
 
+.cartText {
+    text-align: center;
+}
+
+.nowText {
+    display: relative; 
+    justify-content: space-evenly;
+}

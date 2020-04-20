@@ -12,16 +12,16 @@ const Bottom = () => (
             <button className={style.addToCartButtonStyle}>
                 <img src={cartIcon} 
                 className={style.iconStyle} ></img>
-                  <text className={style.textStyle}>Add to Cart</text></button> 
+                  <text className={style.textStyle}><span className={style.cartText}>Add to Cart</span></text></button> 
         </span>
         </div>
         
         <div className={style.buttonDivStyle}>
         <span>       
             <button className={style.buyNowButtonStyle}>
-                <img src={buyNowIcon} 
-                className={style.iconStyle2} ></img>
-                  <text className={style.textStyle}>Buy Now</text></button> 
+                {/* <img src={buyNowIcon} 
+                className={style.iconStyle2} ></img> */}
+                  <text className={style.textStyle}><span className={style.nowText}>Buy Now</span></text></button> 
         </span>
         </div>
         <form>
